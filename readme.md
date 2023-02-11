@@ -13,7 +13,7 @@ npm install --save tiny-dirname
 ```ts
 import dirname from 'tiny-dirname';
 
-dirname ( import.meta.url ); // => '/path/to/'
+dirname ( import.meta.url ); // => '/path/to'
 ```
 
 ## License
