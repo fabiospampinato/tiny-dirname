@@ -1,9 +1,13 @@
 
+/* IMPORT */
+
+import fileurl2path from 'fileurl2path';
+
 /* MAIN */
 
 const dirname = ( url: string ): string => {
 
-  return new URL ( '.', url ).pathname.replace ( /(.)\/$/, '$1' );
+  return fileurl2path ( new URL ( '.', url ) ).replace ( /(.)\/$/, '$1' );
 
 };
 
