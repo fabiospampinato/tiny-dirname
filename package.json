@@ -2,7 +2,7 @@
   "name": "tiny-dirname",
   "repository": "github:fabiospampinato/tiny-dirname",
   "description": "A tiny isomorphic ESM alternative to Node's __dirname global.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
